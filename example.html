@@ -15,7 +15,10 @@
     <script>
         $(document).ready(function() {
             var table = $('#example').DataTable();
-            table.indieSearch([0, 1, 5]);
+            table.indieSearch({
+                freeTextIndex: [0, 3, 4, 5],
+                selectIndex: [1, 2]
+            });
         });
 
     </script>
