@@ -7,7 +7,7 @@ Aim of this project is to provide a clean API for web developers to access full 
   * text filter
   * selection filter
   * arithmatic filter
-  * Date filter
+  * date filter
   * I can go on and on
 
 
